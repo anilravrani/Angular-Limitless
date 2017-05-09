@@ -1,3 +1,10 @@
+# Fix host 0.0.0.0
+```
+"Edit the following line in node_modules/webpack-dev-server/lib/Server.js (line 425):
+change to
+return true;
+```
+
 # AngularLimitless
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.2.
