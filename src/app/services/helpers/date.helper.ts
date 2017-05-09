@@ -34,7 +34,6 @@ export class DateHelperService {
     ];
 
     /** Date */
-
     public getDate(dt: Date): string {
         return dt.toLocaleDateString(this.locale, this.locale_options);
     }
@@ -52,7 +51,6 @@ export class DateHelperService {
     }
 
     /** MomentJS */
-
     public parseMoment(d: string, f: string) {
         let m = moment(d, f);
         if (m.isValid()) return m;

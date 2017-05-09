@@ -20,4 +20,11 @@ export class DomHelperService {
     public getElementById(id: string) {
         return document.getElementById(id);
     }
+
+    /** Table */
+    public addColorSelectedRowTable(id) {
+        $(`#${id}`).on('click', 'tbody tr', function(event) {
+            $(this).addClass('highlight').siblings().removeClass('highlight');
+        });
+    }
 }

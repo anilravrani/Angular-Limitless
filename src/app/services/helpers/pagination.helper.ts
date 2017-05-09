@@ -7,7 +7,7 @@ export class PaginationHelperService {
     }
 
     public previousLabel: string = 'Trước';
-    public nextLabel: string ='Sau';
+    public nextLabel: string = 'Sau';
     public screenReaderPaginationLabel: string = 'Pagination';
     public screenReaderPageLabel: string = 'page';
     public screenReaderCurrentLabel: string = 'You\'re on page';
