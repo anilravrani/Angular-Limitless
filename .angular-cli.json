@@ -41,7 +41,8 @@
         "assets/js/plugins/ui/moment/moment.min.js",
         "assets/js/plugins/pickers/daterangepicker.js",
 
-        "assets/js/core/app.js"
+        "assets/js/core/app.js",
+        "global.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
